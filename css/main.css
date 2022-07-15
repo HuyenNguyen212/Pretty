@@ -1,0 +1,198 @@
+/* CSS Document */
+.header{
+	height: 10vh;
+    width: 210vmin;
+}
+.logo a{
+	font-size: 40px;
+	text-decoration: none;
+	color: rgba(39,173,145,1.00);
+}
+.nav ul{
+	list-style: none
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a{
+	text-decoration: none;
+	color: rgba(39,173,145,1.00);
+}
+.nav li a:hover{
+	opacity: 0.8
+}
+.home{
+	display: flex;
+	height: 60%;
+	transition: relative
+}
+/*Header*/
+.banner{
+	background: url("../img/unsplash_EZyot4kBaLg.png");
+	background-position: bottom;
+	padding: 160px 0;
+	color: white
+}
+.banner-1{
+	width: 500px;
+	position: absolute;
+	background:rgba(107,107,107,0.75);
+}
+.banner-1:hover{
+	background:rgba(154,126,143,0.82);
+}
+.banner h1{
+	font-weight: 700;
+	font-size: 70px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	color:rgba(39,173,145,1.00)
+}
+.banner h2{
+	font-weight: 600;
+	font-size: 20px;
+	flex-wrap: wrap;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color:rgba(39,173,145,1.00)
+}
+.banner p{
+	color: rgba(39,173,145,1.00);
+	margin: 8px 0 40px;
+}
+.btn{
+	background:rgba(234,94,154,0.96);
+	color: white;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 10px;
+}
+.btn:hover{
+	opacity: .8;
+}
+/*banner*/
+.banner{
+	background: url("../img/unsplash_EZyot4kBaLg.png");
+	background-position: bottom;
+	padding: 160px 0;
+	color: white
+}
+.service{
+	padding: 80px;
+}
+.service h1{
+	margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 50px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	color:rgba(39,173,145,1.00);
+}
+.service h1:hover{
+	color: rgba(39,173,145,1.00)
+}
+img{
+	width: 500px
+}
+.feature{
+	overflow: hidden;
+	height: 400px;
+	padding: 5px;
+	margin-bottom: 10px
+}
+.box h2{
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	flex-wrap: wrap;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color: black;
+	margin-top: 20px
+}
+h2:hover{
+	color:rgba(39,173,145,1.00);
+}
+.feature:hover{
+	transform: scale(1.1);
+	transform: rotate(1.1);
+	transition: all 0.5s;
+	overflow: hidden;
+	position: relative
+	
+}
+.content{
+	display: flex;
+	padding: 40px 0;
+}
+.content p{
+	margin: 16px 0;
+}
+.icon a{
+	margin-left: 8px;
+	color: #1f1f1f;
+	font-size: 24px;
+}
+.box-1{
+	background:rgba(234,94,154,0.96);
+	color: black;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 10px;
+}
+.box-1:hover{
+	opacity: 0.8;
+	transform: scale(1.1);
+	transform: rotate(1.1);
+	transition: all 0.5s;
+}
+.box-rim{
+	position: absolute;
+	background: rgba(245,166,212,0.80);
+	width: 30%;
+	display: block
+}
+.box-rim:hover{
+	display: none;
+	transition: 0.5
+}
+.box-2 h3{
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	flex-wrap: wrap;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color: black;
+	margin-top: 20px
+}
+h3:hover{
+	color:rgba(39,173,145,1.00);
+}
+.box-2 h4{
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	flex-wrap: wrap;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color: black;
+	margin-top: 20px
+}
+.footer{
+	padding: 70px 40px;
+	color: rgba(39,173,145,1.00);
+	background:  rgba(246,220,232,0.75);
+	display: flex
+}
+p:hover{
+	color: rgba(86,216,188,0.78)
+}
+.test{
+	text-align: left
+}
+.icon a{
+	margin-left: 8px;
+	color: black
+}
+
